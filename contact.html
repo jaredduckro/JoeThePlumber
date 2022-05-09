@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Joe the Plumber: Full-service Plumbing & Heating</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="code.js"></script>
+    <link rel="icon" href="fauceticon.png">
+</head>
+ <body>
+    
+<div class="wrapper5">
+     <nav id="flex-nav">
+       <a href="#" class="toggleNav">☰ Menu</a> <!--This will only be visible less than 480px wide-->
+      <ul id="navwrapper">
+        <li class="first"><a href="about.html">About Us</a></li>
+        <li class="second"><a href="services.html">Services</a></li>
+        <li class="third"><a href="plans.html">Plans</a></li>
+        <li class="fourth"><a href="askjoe.html">Ask Joe</a></li>
+        <li class="fifth"><a href="contact.html">Contact</a></li>
+       </ul>
+  </nav>
+      <header class="box headerwrapper">
+      <div class="headerpic">
+        <p><a href="index.html">Home</a></p>
+        <a href="index.html"><img class="headerpicture" src="googlelogo3.png" alt="googlepic3"></a>
+      </div>
+      <div class="headertext">
+      <h1><a href="index.html">Joe the Plumber, Inc.</a></h1>
+      <h4>One call does it all</h4>
+      </div>
+    </header>
+  <main class="box mainaside">
+       <h2>Fill Out Our Form!</h2>
+        <br>
+        Use this form to allow us to get in touch with you within 1 business day!
+        <br>
+        * = Required Field
+        <form class="nestedgrid2" action="https://formspree.io/f/xnqwzpko"
+  method="POST">
+
+          <div class="div1">
+          Name*<br><input type="text" size="30" placeholder="NAME" autofocus required name="fullname" aria-label="name"><br>
+          Email*<br><input type="email" size="30" required name="email" placeholder="EMAIL" aria-label="email"><br>
+          Phone*<br><input type="tel" size="20" placeholder="(xxx)xxx-xxxx" name="phone" aria-label="phone"><br>
+          </div>
+          <div class="div2">
+            Service Needed:<br><input type="text" size="30" list="services" aria-label="services needed"><br><datalist id="services">
+              <option value="Gerneral Plumbing"></option>
+              <option value="Heating"></option>
+              <option value="Cooling"></option>
+              <option value="Solar Heating"></option>
+            </datalist>
+            <br><input type="submit" value="Submit!" class="button"><br>
+          </div>
+          </form>
+        <div class="call">
+          <p>One Call Does It All!</p>
+        </div>
+  </main>
+  <aside class="box">
+    <h2>Contact Us!</h2><p>
+      <p>The quickest way to schedule a service appointment is to contact our office:</p>
+      <p>
+Email: contact@joetheplumber.com<br>
+Phone:(888) 555-HEAT<br>
+Fax: (975) 555-Heat<br>
+</p>
+<p>
+Mail:<br>
+Joe the Plumber, Inc
+5255 Warwick Avenue
+Albuquerque, NM 87101
+Or, complete the form and we will contact you within 24 hours.
+</p>
+  <h6><img src="googlelogo3.png" class="google" alt="googlepic3"></h6>
+  </aside>
+  <footer class="box">&copy; 2022 Joe the Plumber, Inc. All rights reserved.<br>Joe the Plumber,Inc. 5255 Warwick Avenue Albuquerque, NM 87101<br>contact@joetheplumber.com
+  
+  
+  </footer>
+  </div>
+
+</body>
+</html>
