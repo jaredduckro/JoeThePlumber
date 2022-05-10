@@ -147,7 +147,6 @@ nav {
     position: sticky;
     top:0;
     z-index:999;
-    color:#000000;
 }
 /*This stuff is to make my navigation go horizontal on full screen*/
 .first {
@@ -358,7 +357,7 @@ footer {
     }
 
 #flex-nav a {
-    color:white;
+    color:#000000;
     text-decoration:none;
     }
 
