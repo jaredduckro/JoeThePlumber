@@ -136,7 +136,7 @@ header a {
     }
 
 nav {
-    background-color:#FF590F;
+    background-color:#FF621A;
     font-size:125%;
     grid-area:nav;
     text-align:center;
@@ -147,6 +147,7 @@ nav {
     position: sticky;
     top:0;
     z-index:999;
+    color:#000000;
 }
 /*This stuff is to make my navigation go horizontal on full screen*/
 .first {
